@@ -6,7 +6,7 @@ const ButtonFilter = ({ fetchData: fetchApi }) => {
 
   useEffect( () => {
     fetchData();
-  }, []);
+  });
 
   if(loading) {
     return (
